@@ -1,0 +1,114 @@
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background: #eac4de;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(60, 9, 9, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-images {
+    position: relative;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.2);
+}
+
+.product-info h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.product-info p {
+    margin: 5px 0;
+    color: #221515;
+}
+
+.rating {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.buy-button {
+    display: inline-block;
+    background: #da5fef;
+    color: #190404;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition:  0.3s;
+}
+
+.buy-button:hover {
+    background: #662f8e;
+}
+
+.share-buttons {
+    margin-top: 10px;
+}
+
+.share-buttons button {
+    background: #f767b1;
+    color: #541414;
+    border: none;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:  0.3s;
+}
+
+.share-buttons button:hover {
+    background: #f84c85;
+}
+.main-image {
+    width: 100%; 
+    height: 200px; 
+    object-fit: contain; 
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fdfdfd; 
+}
+
+.thumbnail {
+    width: 50px;
+    height: 50px;
+    object-fit: cover; 
+    border-radius: 5px;
+    cursor: pointer;
+}
