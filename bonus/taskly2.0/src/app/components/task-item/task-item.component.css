@@ -1,0 +1,28 @@
+h3{
+    font-size: 28px;
+    color: #1C2541;
+}
+h3:hover{
+    color: #C5D86D;
+    text-decoration: underline #CBFF8C;
+}
+button{
+    width: 200x;
+    border: 2px solid red;
+    min-width: 80px; 
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 2px 1px 10px blue inset, 2px 1px 10px blueviolet;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: #1D2D44;
+}
+a:hover{
+    color: #3E5C76;
+    text-decoration: underline #C2E812;
+}
+*{
+    font-size: 18px;
+}

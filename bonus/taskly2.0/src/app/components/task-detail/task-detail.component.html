@@ -1,0 +1,9 @@
+<div>
+    <h2>{{ task.title }}</h2>
+    <p>{{ task.description }}</p>
+    <p><strong>Category:</strong> {{ task.category }}</p>
+    <p><strong>Deadline:</strong> {{ task.deadline | date }}</p>
+    <p><strong>Status:</strong> {{ task.status }}</p>
+    <button (click)="goBack()">Back to Tasks</button>
+  </div>
+  
